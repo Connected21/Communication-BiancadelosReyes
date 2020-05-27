@@ -1,0 +1,96 @@
+@import url('glitch.css');
+@import url('animate-world.css');
+@import url('navigation.css');
+@import url('footer.css');
+@font-face
+{
+    font-family: 'Roboto';
+    src: url('fonts/Roboto/Roboto-Regular.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: 'Roboto','Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin:25px 0;
+}
+.container {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-right: 50px;
+    padding: 70px 0 20px;
+    width: 100%;
+}
+.acc h3:hover{
+     color: lightgrey;
+}
+
+.acc h3 {
+    font-size: 18px;
+    background-color: #006599;
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.acc h3:after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.acc.active h3:after {
+	content: '-';
+}
+
+.content {
+    background-color: lightblue;
+    display: none;
+}
+
+.content-inner {
+    padding: 20px;
+}
+
+.content * {
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.acc {
+    border-top: 1px solid #0000;
+    border-left: 1px solid #0000;
+    border-right: 1px solid #0000;
+    border-bottom: 1px solid #0000;
+}
+
+footer
+{
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 120%;
+}
+footer .logo{
+    display: flex;
+    justify-content: center;
+}

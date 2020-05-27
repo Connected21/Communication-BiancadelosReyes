@@ -1,0 +1,6 @@
+nav #currentPage
+{
+    color: #000000;
+    pointer-events: none;
+    cursor: default;
+}

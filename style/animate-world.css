@@ -1,0 +1,7 @@
+@keyframes rotate
+{
+    100%
+    {
+        background-position: 100%;
+    }
+}
